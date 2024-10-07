@@ -26,7 +26,7 @@
       </a>
     </header>
     <main class="">
-      <section class="countdown py-3 position-relative">
+      <section class="countdown py-lg-3 pb-0 position-relative">
         <div
           class="banner-background w-100 position-absolute top-0 end-0"
         ></div>
@@ -37,7 +37,7 @@
           alt=""
         />
         <div
-          class="container countdown-banner overflow-hidden position-relative p-3 d-flex justify-content-between align-items-center"
+          class="container countdown-banner overflow-hidden position-relative p-3 d-flex flex-column flex-lg-row justify-content-between align-items-center"
           style="background-image: url(./asset/image/banner.png)"
         >
           <div class="p-3">
@@ -45,19 +45,19 @@
           </div>
           <div class="p-3 d-flex">
             <div
-              class="ms-3 count-timer bg-white d-flex flex-column justify-content-center align-items-center"
+              class="ms-lg-3 mx-2 count-timer bg-white d-flex flex-column justify-content-center align-items-center"
             >
               <span class="number fw-500 text-dark-blue">۸</span>
               <span class="date-value fs-6 fw-500 text-middle-blue">روز</span>
             </div>
             <div
-              class="ms-3 count-timer bg-white d-flex flex-column justify-content-center align-items-center"
+              class="ms-lg-3 mx-2 count-timer bg-white d-flex flex-column justify-content-center align-items-center"
             >
               <span class="number fw-500 text-dark-blue">۳</span>
               <span class="date-value fs-6 fw-500 text-middle-blue">ساعت</span>
             </div>
             <div
-              class="ms-3 count-timer bg-white d-flex flex-column justify-content-center align-items-center"
+              class="ms-lg-3 mx-2 count-timer bg-white d-flex flex-column justify-content-center align-items-center"
             >
               <span class="number fw-500 text-dark-blue">۱۵</span>
               <span class="date-value fs-6 fw-500 text-middle-blue">دقیقه</span>
@@ -65,8 +65,10 @@
           </div>
         </div>
       </section>
-      <section class="position-relative py-3">
-        <div class="discount container d-flex justify-content-between px-0">
+      <section class="position-relative py-lg-3 pt-4 pb-0">
+        <div
+          class="discount container d-flex justify-content-between flex-lg-nowrap flex-wrap px-0"
+        >
           <div class="circle-green circle-blur position-absolute"></div>
           <img
             src="./asset/image/leaf-2.png"
@@ -75,7 +77,7 @@
           />
 
           <div
-            class="bg-red right flex-shrink-0 d-flex justify-content-center align-items-center flex-column"
+            class="right bg-red flex-lg-grow-0 flex-grow-1 flex-shrink-0 d-flex justify-content-center align-items-center flex-column"
           >
             <h5 class="text-white fw-500">
               کد تخفیف <span class="fw-900">۲۵٪</span>
@@ -84,23 +86,55 @@
               این کد تخفیف را هنگام خرید وارد کنید
             </p>
           </div>
-          <div class="bg-red centerbox"></div>
-          <div class="bg-red centerbox"></div>
-          <div class="bg-red centerbox"></div>
-          <div class="bg-red centerbox"></div>
-          <div class="bg-red centerbox"></div>
-          <div class="bg-red centerbox"></div>
-          <div class="bg-red centerbox"></div>
-          <div class="bg-red centerbox"></div>
+          <div class="bg-red centerbox d-none d-lg-block"></div>
+          <div class="bg-red centerbox d-none d-lg-block"></div>
+          <div class="bg-red centerbox d-none d-lg-block"></div>
+          <div class="bg-red centerbox d-none d-lg-block"></div>
+          <div class="bg-red centerbox d-none d-lg-block"></div>
+          <div class="bg-red centerbox d-none d-lg-block"></div>
+          <div class="bg-red centerbox d-none d-lg-block"></div>
+          <div class="bg-red centerbox d-none d-lg-block"></div>
           <div
-            class="bg-red left flex-shrink-0 d-flex justify-content-center align-items-center"
+            class="left bg-red flex-lg-grow-0 flex-grow-1 flex-shrink-0 d-flex justify-content-center align-items-center position-relative overflow-hidden"
           >
+            <div class="border-dashed position-absolute top-0 end-0 d-flex d-md-none justify-content-between align-items-center">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
             <div
               class="d-flex justify-content-between align-items-center bg-white px-3 w-100"
             >
-              <div class="">
+              <div class="discount-code-div">
                 <span
-                  class="discount-code-title text-middle-blue fw-500 fs-6 py-3 d-inline-block"
+                  class="discount-code-title text-middle-blue fw-500 fs-6 py-3 d-lg-inline-block d-none"
                   >کد تخفیف:</span
                 >
                 <span class="discount-code fw-500 text-dark-blue ms-3"
@@ -129,7 +163,7 @@
           </div>
         </div>
       </section>
-      <section class="position-relative py-3">
+      <section class="position-relative py-lg-3 pt-4 pb-0">
         <div class="best-selling container px-1 position-relative pt-3">
           <img
             src="./asset/image/leaf-3.png"
@@ -140,7 +174,7 @@
           <h6
             class="title text-dark-blue fw-600 pt-4 mb-2rem z-1 text-center position-relative"
           >
-            پرفروش ترین ها
+            پرفروش ها
           </h6>
           <div class="best-selling-slider owl-carousel">
             <div class="d-flex flex-column gap-4">
@@ -1559,7 +1593,7 @@
           </div>
         </div>
       </section>
-      <section class="position-relative py-3">
+      <section class="position-relative py-lg-3 pt-4 pb-0">
         <div class="circle-blur circle-red position-absolute"></div>
         <img
           src="./asset/image/leaf-4.png"
@@ -1573,9 +1607,9 @@
             دسته بندی
           </h6>
           <div
-            class="container d-flex justify-content-between align-items-center"
+            class="container overflow-x-auto d-flex justify-content-between align-items-center"
           >
-            <div class="category text-center">
+            <div class="category text-center me-3">
               <div class="category-img position-relative rounded-circle">
                 <div class="w-100 h-100 rounded-circle">
                   <img
@@ -1592,7 +1626,7 @@
                 عنوان دسته
               </a>
             </div>
-            <div class="category text-center">
+            <div class="category text-center me-3">
               <div class="category-img position-relative rounded-circle">
                 <div class="w-100 h-100 rounded-circle">
                   <img
@@ -1609,7 +1643,7 @@
                 عنوان دسته
               </a>
             </div>
-            <div class="category text-center">
+            <div class="category text-center me-3">
               <div class="category-img position-relative rounded-circle">
                 <div class="w-100 h-100 rounded-circle">
                   <img
@@ -1626,7 +1660,7 @@
                 عنوان دسته
               </a>
             </div>
-            <div class="category text-center">
+            <div class="category text-center me-3">
               <div class="category-img position-relative rounded-circle">
                 <div class="w-100 h-100 rounded-circle">
                   <img
@@ -1643,7 +1677,7 @@
                 عنوان دسته
               </a>
             </div>
-            <div class="category text-center">
+            <div class="category text-center me-3">
               <div class="category-img position-relative rounded-circle">
                 <div class="w-100 h-100 rounded-circle">
                   <img
@@ -1660,7 +1694,7 @@
                 عنوان دسته
               </a>
             </div>
-            <div class="category text-center">
+            <div class="category text-center me-3">
               <div class="category-img position-relative rounded-circle">
                 <div class="w-100 h-100 rounded-circle">
                   <img
@@ -1677,7 +1711,7 @@
                 عنوان دسته
               </a>
             </div>
-            <div class="category text-center">
+            <div class="category text-center me-3">
               <div class="category-img position-relative rounded-circle">
                 <div class="w-100 h-100 rounded-circle">
                   <img
@@ -1697,7 +1731,7 @@
           </div>
         </div>
       </section>
-      <section class="position-relative py-3">
+      <section class="position-relative py-lg-3 pt-4 pb-0">
         <div
           class="circle-blur circle-orange circle-orange-last position-absolute"
         ></div>
@@ -1712,10 +1746,10 @@
           عنوان
         </h6>
         <div
-          class="cards container d-flex justify-content-between align-items-center"
+          class="cards container d-flex justify-content-between align-items-center overflow-x-auto"
         >
           <div
-            class="card d-flex justify-content-between align-items-center flex-column p-3"
+            class="card d-flex justify-content-between align-items-center flex-column p-3 me-3 flex-shrink-0"
           >
             <img
               src="./asset/image/card-1.jpeg"
@@ -1750,7 +1784,7 @@
             </button>
           </div>
           <div
-            class="card d-flex justify-content-between align-items-center flex-column p-3"
+            class="card d-flex justify-content-between align-items-center flex-column p-3 me-3 flex-shrink-0"
           >
             <img
               src="./asset/image/card-1.jpeg"
@@ -1785,7 +1819,7 @@
             </button>
           </div>
           <div
-            class="card d-flex justify-content-between align-items-center flex-column p-3"
+            class="card d-flex justify-content-between align-items-center flex-column p-3 me-3 flex-shrink-0"
           >
             <img
               src="./asset/image/card-1.jpeg"
@@ -1820,7 +1854,7 @@
             </button>
           </div>
           <div
-            class="card d-flex justify-content-between align-items-center flex-column p-3"
+            class="card d-flex justify-content-between align-items-center flex-column p-3 me-3 flex-shrink-0"
           >
             <img
               src="./asset/image/card-1.jpeg"
@@ -1855,7 +1889,7 @@
             </button>
           </div>
           <div
-            class="card d-flex justify-content-between align-items-center flex-column p-3"
+            class="card d-flex justify-content-between align-items-center flex-column p-3 me-3 flex-shrink-0"
           >
             <img
               src="./asset/image/card-1.jpeg"
@@ -1891,18 +1925,36 @@
           </div>
         </div>
       </section>
-      <section class="position-relative py-3">
-        <div class="banners container d-flex gap-4 pt-3">
-            
-                <div class="banner p-3 d-flex justify-content-center align-items-center w-25" style="background-color: #FFDF70;"> بنـــــــــــر</div>
-                <div class="banner p-3 d-flex justify-content-center align-items-center w-25" style="background-color: #FF8620;"> بنـــــــــــر</div>
-                <div class="banner p-3 d-flex justify-content-center align-items-center w-25" style="background-color: #D19584;"> بنـــــــــــر</div>
-                <div class="banner p-3 d-flex justify-content-center align-items-center w-25" style="background-color: #9EDB34;"> بنـــــــــــر</div>
-       
+      <section class="position-relative py-lg-3 pt-4 pb-0">
+        <div class="banners container d-flex gap-4 pt-3 flex-wrap">
+          <div
+            class="banner p-3 d-flex justify-content-center align-items-center w-25"
+            style="background-color: #ffdf70"
+          >
+            بنـــــــــــر
+          </div>
+          <div
+            class="banner p-3 d-flex justify-content-center align-items-center w-25"
+            style="background-color: #ff8620"
+          >
+            بنـــــــــــر
+          </div>
+          <div
+            class="banner p-3 d-flex justify-content-center align-items-center w-25"
+            style="background-color: #d19584"
+          >
+            بنـــــــــــر
+          </div>
+          <div
+            class="banner p-3 d-flex justify-content-center align-items-center w-25"
+            style="background-color: #9edb34"
+          >
+            بنـــــــــــر
+          </div>
         </div>
       </section>
 
-      <section class="position-relative py-3">
+      <section class="position-relative py-lg-3 pt-4 pb-0">
         <div
           class="circle-blur circle-green circle-green-last position-absolute"
         ></div>
@@ -1918,16 +1970,12 @@
             نویسندگان
           </h6>
           <div
-            class="container d-flex justify-content-between align-items-center"
+            class="container d-flex justify-content-between align-items-center overflow-x-auto"
           >
-            <div class="writer text-center">
+            <div class="writer text-center me-3">
               <div class="writer-img position-relative rounded-circle">
                 <div class="w-100 h-100 rounded-circle overflow-hidden">
-                  <img
-                    src="./asset/image/writer-1.jpeg"
-                    alt=""
-                    class="w-100"
-                  />
+                  <img src="./asset/image/writer-1.jpeg" alt="" class="w-100" />
                 </div>
               </div>
               <a
@@ -1937,14 +1985,10 @@
                 عنوان دسته
               </a>
             </div>
-            <div class="writer text-center">
+            <div class="writer text-center me-3">
               <div class="writer-img position-relative rounded-circle">
                 <div class="w-100 h-100 rounded-circle overflow-hidden">
-                  <img
-                    src="./asset/image/writer-2.jpeg"
-                    alt=""
-                    class="w-100"
-                  />
+                  <img src="./asset/image/writer-2.jpeg" alt="" class="w-100" />
                 </div>
               </div>
               <a
@@ -1954,14 +1998,10 @@
                 عنوان دسته
               </a>
             </div>
-            <div class="writer text-center">
+            <div class="writer text-center me-3">
               <div class="writer-img position-relative rounded-circle">
                 <div class="w-100 h-100 rounded-circle overflow-hidden">
-                  <img
-                    src="./asset/image/writer-3.jpeg"
-                    alt=""
-                    class="w-100"
-                  />
+                  <img src="./asset/image/writer-3.jpeg" alt="" class="w-100" />
                 </div>
               </div>
               <a
@@ -1971,14 +2011,10 @@
                 عنوان دسته
               </a>
             </div>
-            <div class="writer text-center">
+            <div class="writer text-center me-3">
               <div class="writer-img position-relative rounded-circle">
                 <div class="w-100 h-100 rounded-circle overflow-hidden">
-                  <img
-                    src="./asset/image/writer-4.jpeg"
-                    alt=""
-                    class="w-100"
-                  />
+                  <img src="./asset/image/writer-4.jpeg" alt="" class="w-100" />
                 </div>
               </div>
               <a
@@ -1988,14 +2024,10 @@
                 عنوان دسته
               </a>
             </div>
-            <div class="writer text-center">
+            <div class="writer text-center me-3">
               <div class="writer-img position-relative rounded-circle">
                 <div class="w-100 h-100 rounded-circle overflow-hidden">
-                  <img
-                    src="./asset/image/writer-6.jpeg"
-                    alt=""
-                    class="w-100"
-                  />
+                  <img src="./asset/image/writer-6.jpeg" alt="" class="w-100" />
                 </div>
               </div>
               <a
@@ -2005,15 +2037,11 @@
                 عنوان دسته
               </a>
             </div>
-            
-            <div class="writer text-center">
+
+            <div class="writer text-center me-3">
               <div class="writer-img position-relative rounded-circle">
                 <div class="w-100 h-100 rounded-circle overflow-hidden">
-                  <img
-                    src="./asset/image/writer-5.jpeg"
-                    alt=""
-                    class="w-100"
-                  />
+                  <img src="./asset/image/writer-5.jpeg" alt="" class="w-100" />
                 </div>
               </div>
               <a
@@ -2023,14 +2051,10 @@
                 عنوان دسته
               </a>
             </div>
-            <div class="writer text-center">
+            <div class="writer text-center me-3">
               <div class="writer-img position-relative rounded-circle">
                 <div class="w-100 h-100 rounded-circle overflow-hidden">
-                  <img
-                    src="./asset/image/writer-7.jpeg"
-                    alt=""
-                    class="w-100"
-                  />
+                  <img src="./asset/image/writer-7.jpeg" alt="" class="w-100" />
                 </div>
               </div>
               <a
@@ -2045,148 +2069,421 @@
       </section>
 
       <section class="py-3">
-        <div class="container tab-discount d-flex justify-content-between">
-            <div class="right bg-red d-flex justify-content-center align-items-center flex-column position-relative">
-                <div class="fw-900 text-white">۳۰٪</div>
-                <p class="text-white fw-500 ">تخفیف ویژه</p>
-                <svg class="position-absolute top-50 translate-middle-y" width="33" height="91" viewBox="0 0 33 91" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M24.7115 0C20.9192 0 17.8661 3.05196 17.8661 6.84418C17.8661 32.4129 0.884377 28.9877 0.884377 45.5C0.884377 62.0122 17.8661 58.5859 17.8661 84.1547C17.8661 87.9469 20.9192 91 24.7115 91H26.1547C29.9469 91 33 87.9469 33 84.1547V45.5V6.84418C33 3.05196 29.9469 0 26.1547 0H24.7115Z" fill="#FF5A5E"/>
-                    </svg>
-                    
-                    
+        <div class="container tab-discount d-flex   flex-wrap justify-content-between">
+          <div
+            class="right bg-red d-flex justify-content-center align-items-center flex-column position-relative"
+          >
+            <div class="fw-900 text-white">۳۰٪</div>
+            <p class="text-white fw-500">تخفیف ویژه</p>
+            <svg  class="mobile d-block d-lg-none position-absolute start-50 translate-middle-x" width="92" height="33" viewBox="0 0 92 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.499999 8.28857C0.499999 12.0808 3.55196 15.1339 7.34418 15.1339C32.9129 15.1339 29.4877 32.1157 46 32.1157C62.5122 32.1157 59.0859 15.1339 84.6547 15.1339C88.4469 15.1339 91.5 12.0808 91.5 8.28857L91.5 6.84536C91.5 3.05313 88.4469 2.66733e-05 84.6547 2.68391e-05L46 2.85287e-05L7.34418 3.02184e-05C3.55196 3.03842e-05 0.499999 3.05314 0.499999 6.84536L0.499999 8.28857Z" fill="#FF5A5E"/>
+                </svg>
+                
+            <svg
+              class=" d-none d-lg-block position-absolute top-50 translate-middle-y"
+              width="33"
+              height="91"
+              viewBox="0 0 33 91"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M24.7115 0C20.9192 0 17.8661 3.05196 17.8661 6.84418C17.8661 32.4129 0.884377 28.9877 0.884377 45.5C0.884377 62.0122 17.8661 58.5859 17.8661 84.1547C17.8661 87.9469 20.9192 91 24.7115 91H26.1547C29.9469 91 33 87.9469 33 84.1547V45.5V6.84418C33 3.05196 29.9469 0 26.1547 0H24.7115Z"
+                fill="#FF5A5E"
+              />
+            </svg>
+          </div>
+          <div
+            class="center d-flex mx-lg-3 my-3 flex-row flex-lg-column justify-content-center align-items-center "
+          >
+            <div class="mx-2 my-2 rounded-circle"></div>
+            <div class="mx-2 my-2 rounded-circle active bg-red"></div>
+            <div class="mx-2 my-2 rounded-circle"></div>
+          </div>
+          <div
+            class="left  bg-red position-relative pe-lg-4 ps-lg-5 p-4 d-flex flex-column flex-lg-row align-items-center justify-content-between "
+          >
+          <svg class="mobile d-block d-lg-none position-absolute start-50 translate-middle-x" width="92" height="33" viewBox="0 0 92 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M91.5 23.9427C91.5 20.1505 88.448 17.0974 84.6558 17.0974C59.0871 17.0974 62.5123 0.115599 46 0.115599C29.4878 0.115598 32.9141 17.0974 7.34534 17.0974C3.55312 17.0974 0.499999 20.1505 0.499999 23.9427L0.499999 25.3859C0.499999 29.1781 3.55312 32.2312 7.34534 32.2312L46 32.2312L84.6558 32.2312C88.448 32.2312 91.5 29.1781 91.5 25.3859L91.5 23.9427Z" fill="#FF5A5E"/>
+            </svg>
+            
+            <svg
+              class= "  d-none d-lg-block position-absolute top-50 translate-middle-y"
+              width="33"
+              height="91"
+              viewBox="0 0 33 91"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.05728 91C12.8495 91 15.9026 87.948 15.9026 84.1558C15.9026 58.5871 32.8844 62.0123 32.8844 45.5C32.8844 28.9878 15.9026 32.4141 15.9026 6.84534C15.9026 3.05312 12.8495 -1.7515e-06 9.05729 -2.08303e-06L7.61408 -2.2092e-06C3.82185 -2.54073e-06 0.768745 3.05312 0.768745 6.84534L0.768742 45.5L0.768738 84.1558C0.768738 87.948 3.82185 91 7.61407 91L9.05728 91Z"
+                fill="#FF5A5E"
+              />
+            </svg>
+
+            <div class="img overflow-hidden me-3">
+              <img src="./asset/image/banner-img.png" alt="" />
             </div>
-            <div class="center d-flex mx-3 flex-column justify-content-center align-items-center">
-                    <div class="mx-2 my-2 rounded-circle"></div>
-                    <div class="mx-2 my-2 rounded-circle active bg-red"></div>
-                    <div class="mx-2 my-2 rounded-circle"></div>
-            </div>
-            <div class="left flex-grow-1 bg-red position-relative pe-4 ps-5 d-flex align-items-center justify-content-between " >
-                <svg class="position-absolute top-50 translate-middle-y" width="33" height="91" viewBox="0 0 33 91" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.05728 91C12.8495 91 15.9026 87.948 15.9026 84.1558C15.9026 58.5871 32.8844 62.0123 32.8844 45.5C32.8844 28.9878 15.9026 32.4141 15.9026 6.84534C15.9026 3.05312 12.8495 -1.7515e-06 9.05729 -2.08303e-06L7.61408 -2.2092e-06C3.82185 -2.54073e-06 0.768745 3.05312 0.768745 6.84534L0.768742 45.5L0.768738 84.1558C0.768738 87.948 3.82185 91 7.61407 91L9.05728 91Z" fill="#FF5A5E"/>
-                    </svg>
-                    
-                <div class="img overflow-hidden me-3">
-                    <img src="./asset/image/banner-img.png" alt="">
-                </div>
-                <div class="desc me-3">
-                    <div
-                    class="card d-flex justify-content-between align-items-start flex-column p-3"
+            <div class="desc me-3">
+              <div
+                class="card d-flex justify-content-between align-items-lg-start align-items-center flex-column p-3 me-3"
+              >
+                <h6 class="text-white fw-500 fs-5s mt-3 mb-0">
+                  1984 (نوزده هشتاد و چهار)
+                </h6>
+                <p class="fw-400 fs-7 text-lighter-blue mt-1 mb-2">
+                  جورج اورول
+                </p>
+                <div class="d-flex">
+                  <div
+                    class="text-right text-decoration-line-through text-lighter-blue fw-500 fs-6"
                   >
-                  
-                    <h6 class="text-white fw-500 fs-5s mt-3 mb-0">
-                      1984 (نوزده هشتاد و چهار)
-                    </h6>
-                    <p class="fw-400 fs-7 text-lighter-blue mt-1 mb-2">جورج اورول</p>
-                    <div class="d-flex">
-                      <div class="text-right text-decoration-line-through text-lighter-blue fw-500 fs-6">
-                        <del>۵۰,۰۰۰</del>
-                      </div>
-                      <div
-                        class="rounded-pill px-2 py-0 fs-8 fw-300 bg-lighter-blue text-dark-blue mx-1"
-                      >
-                        %۱۵
-                      </div>
-                      <div class="fs-7 text-white d-flex">
-                        ۲۰۰,۰۰۰
-                        <span class="text-lighter-blue fs-8 fw-300 ms-1">تومان</span>
-                      </div>
-                    </div>
-                    <button
-                      class="btn btn-success add-to-cart first-item basket mt-3"
-                      data-type="plus"
-                      data-field="quant-Wy55q"
+                    <del>۵۰,۰۰۰</del>
+                  </div>
+                  <div
+                    class="rounded-pill px-2 py-0 fs-8 fw-300 bg-lighter-blue text-dark-blue mx-1"
+                  >
+                    %۱۵
+                  </div>
+                  <div class="fs-7 text-white d-flex">
+                    ۲۰۰,۰۰۰
+                    <span class="text-lighter-blue fs-8 fw-300 ms-1"
+                      >تومان</span
                     >
-                      افزودن به سبد خرید
-                    </button>
                   </div>
                 </div>
-                    <d class="p-3 d-flex">
-                        <div
-                          class="ms-3 count-timer bg-white d-flex flex-column justify-content-center align-items-center"
-                        >
-                          <span class="number fw-500 text-dark-blue">۸</span>
-                          <span class="date-value fs-6 fw-500 text-middle-blue">روز</span>
-                        </div>
-                        <div
-                          class="ms-3 count-timer bg-white d-flex flex-column justify-content-center align-items-center"
-                        >
-                          <span class="number fw-500 text-dark-blue">۳</span>
-                          <span class="date-value fs-6 fw-500 text-middle-blue">ساعت</span>
-                        </div>
-                        <div
-                          class="ms-3 count-timer bg-white d-flex flex-column justify-content-center align-items-center"
-                        >
-                          <span class="number fw-500 text-dark-blue">۱۵</span>
-                          <span class="date-value fs-6 fw-500 text-middle-blue">دقیقه</span>
-                        </div>
-                      
-                </div>
+                <button
+                  class="btn btn-success add-to-cart first-item basket mt-3"
+                  data-type="plus"
+                  data-field="quant-Wy55q"
+                >
+                  افزودن به سبد خرید
+                </button>
+              </div>
             </div>
+            <div class="p-3 d-flex">
+              <div
+                class="ms-lg-3 mx-2 count-timer bg-white d-flex flex-column justify-content-center align-items-center"
+              >
+                <span class="number fw-500 text-dark-blue">۸</span>
+                <span class="date-value fs-6 fw-500 text-middle-blue">روز</span>
+              </div>
+              <div
+                class="ms-lg-3 mx-2 count-timer bg-white d-flex flex-column justify-content-center align-items-center"
+              >
+                <span class="number fw-500 text-dark-blue">۳</span>
+                <span class="date-value fs-6 fw-500 text-middle-blue"
+                  >ساعت</span
+                >
+              </div>
+              <div
+                class="ms-lg-3 mx-2 count-timer bg-white d-flex flex-column justify-content-center align-items-center"
+              >
+                <span class="number fw-500 text-dark-blue">۱۵</span>
+                <span class="date-value fs-6 fw-500 text-middle-blue"
+                  >دقیقه</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="footer container-fluid mt-auto pb-5 pb-lg-0 text-dark-white fs-8 fw-300 bg-blue pt-3 px-0"
+      >
+        <div class="container-lg">
+          <div
+            class="row g-0 my-5 justify-content-center justify-content-lg-between"
+          >
+            <div class="col-8 col-lg-5 col-lg-3 col-xl-2">
+              <div class="d-flex flex-row flex-xl-column user-select-none">
+                <img
+                  src="https://ketabresan.net/themes/dkr/assets/media/logo.svg"
+                  alt="کتاب رسان"
+                  width="60"
+                />
+                <div class="ms-3 ms-xl-0">
+                  <p class="mt-xl-2">
+                    شــبکه توزیـع کتاب&zwnj;های شـاخص با ۱۰ تا ۲۵ درصد تخفیف
+                    همیشگی ارسال کم&zwnj;هزینه پستی به تمام ایران
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="w-100 my-3 d-block d-lg-none"></div>
+
+            <div class="footer-center col-12 col-lg-6 col-lg-4 col-xl-4">
+              <div class="d-flex d-flex-row flex-wrap justify-content-center">
+                <div class="px-4 mb-4">
+                  <a href="https://t.me/ketabresan">
+                    <img
+                      title="telegram"
+                      src="https://ketabresan.net/images/a84f93f307ccbaf7d36f7db336ccde3c.png"
+                      alt="telegram"
+                    />
+                  </a>
+                </div>
+                <div class="px-4 mb-4">
+                  <a href="https://www.instagram.com/ketabresan_net2">
+                    <img
+                      title="insta"
+                      src="https://ketabresan.net/images/7a4d899bc8b569b7a0a08498fad1a47e.png"
+                      alt="insta"
+                    />
+                  </a>
+                </div>
+                <div class="px-4 mb-4">
+                  <a href="https://eitaa.com/ketabresan"
+                    ><img
+                      title="eita"
+                      src="https://ketabresan.net/images/bc401eb87f33b337b4c22797eb38bb67.png"
+                      alt="eita"
+                    />
+                  </a>
+                </div>
+                <div class="px-4 mb-4">
+                  <a href="https://ble.ir/ketabresan">
+                    <img
+                      title="bale"
+                      src="https://ketabresan.net/images/eecb2565e2ccde04eb91ab458993f2e2.png"
+                      alt="bale"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div
+                class="d-flex d-flex-row flex-wrap justify-content-center mb-4"
+              >
+                <div class="px-2">
+                  <a class="fs-7 text-green" href="https://ketabresan.net/bulk"
+                    >سفارش عمده</a
+                  >
+                </div>
+                <div class="px-2">
+                  <a class="fs-7 text-green" href="https://ketabresan.net/guide"
+                    >راهنمای&zwnj; خرید</a
+                  >
+                </div>
+                <div class="px-2">
+                  <a
+                    class="fs-7 text-green"
+                    href="https://ketabresan.net/competitions"
+                    >مسابقه کتاب&zwnj;خوانی</a
+                  >
+                </div>
+              </div>
+              <div
+                class="d-flex d-flex-row flex-wrap justify-content-center mb-4"
+              >
+                <div class="px-2">
+                  <a
+                    class="fs-7 text-green"
+                    href="https://ketabresan.net/%D9%86%D8%B0%D8%B1-%D9%81%D8%B1%D9%87%D9%86%DA%AF%DB%8C"
+                    >نذر فرهــنگی</a
+                  >
+                </div>
+                <div class="px-2">
+                  <a
+                    class="fs-7 text-green"
+                    href="https://ketabresan.net/contact"
+                    >ارتبــاط با&zwnj; مـا</a
+                  >
+                </div>
+                <div class="px-2">
+                  <a
+                    class="fs-7 text-green"
+                    href="https://ketabresan.net/about-us"
+                    >درباره کتاب&zwnj;رســـان</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="w-100 my-3 d-block d-lg-none"></div>
+
+            <div class="col-10 col-lg-6 col-lg-4 col-xl-4">
+              <div class="row g-0">
+                <div class="col pe-4">
+                  <div class="d-flex flex-column justify-content-between">
+                    <div class="d-flex align-items-start mb-3">
+                      <div class="flex-shrink-0">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="icon icon-tabler icon-tabler-map-pin"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          stroke-width="1"
+                          stroke="#f7f8ff"
+                          fill="none"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path
+                            stroke="none"
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          ></path>
+                          <circle cx="12" cy="11" r="3"></circle>
+                          <path
+                            d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div class="flex-grow-1 ms-3">
+                        <a
+                          class="text-dark-white fs-8"
+                          href="https://nshn.ir/0c_b1VUR0JG4B5"
+                          target="_blank"
+                          rel="noopener"
+                          >مشهد، بلوار شهید صادقی، شهید صادقی۱۹، مجتمع تابان،
+                          طبقه منهای&zwnj;یک، واحد۱۰</a
+                        >
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-start mb-3">
+                      <div class="flex-shrink-0">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="icon icon-tabler icon-tabler-calendar-time"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          stroke-width="1"
+                          stroke="#f7f8ff"
+                          fill="none"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path
+                            stroke="none"
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          ></path>
+                          <path
+                            d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4"
+                          ></path>
+                          <circle cx="18" cy="18" r="4"></circle>
+                          <path d="M15 3v4"></path>
+                          <path d="M7 3v4"></path>
+                          <path d="M3 11h16"></path>
+                          <path d="M18 16.496v1.504l1 1"></path>
+                        </svg>
+                      </div>
+                      <div class="flex-grow-1 ms-3 fs-8">
+                        همه روزه به&zwnj;جز ایام تعطیل؛ 8 الی 21
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-start mb-3">
+                      <div class="flex-shrink-0">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="icon icon-tabler icon-tabler-mail"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          stroke-width="1"
+                          stroke="#f7f8ff"
+                          fill="none"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path
+                            stroke="none"
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          ></path>
+                          <rect
+                            x="3"
+                            y="5"
+                            width="18"
+                            height="14"
+                            rx="2"
+                          ></rect>
+                          <polyline points="3 7 12 13 21 7"></polyline>
+                        </svg>
+                      </div>
+                      <div class="flex-grow-1 ms-3">info@ketabresan.net</div>
+                    </div>
+                    <div class="d-flex align-items-start">
+                      <div class="flex-shrink-0">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="icon icon-tabler icon-tabler-phone"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          stroke-width="1"
+                          stroke="#f7f8ff"
+                          fill="none"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path
+                            stroke="none"
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          ></path>
+                          <path
+                            d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div class="flex-grow-1 ms-3">
+                        <a class="text-dark-white fs-8" href="tel:05137232322"
+                          >22 23 23 37 051</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="d-flex flex-column h-100">
+                    <a
+                      class="mb-2 bg-white rounded-2"
+                      referrerpolicy="origin"
+                      target="_blank"
+                      href="https://trustseal.enamad.ir/?id=332048&amp;Code=twM6dYGjZQSJ0B7RZjcO"
+                      rel="noopener"
+                    >
+                      <img
+                        src="https://trustseal.enamad.ir/logo.aspx?id=332048&amp;Code=twM6dYGjZQSJ0B7RZjcO"
+                        alt=""
+                        width="87"
+                        height="95"
+                      />
+                    </a>
+                    <a
+                      class="bg-white rounded-2"
+                      href="https://logo.samandehi.ir/Verify.aspx?id=1046175&amp;p=rfthobpdaodsgvkarfthjyoedshw"
+                    >
+                      <img
+                        id="jxlzesgtwlaofukzjxlzjzpeapfu"
+                        class="mb-auto"
+                        src="https://logo.samandehi.ir/logo.aspx?id=1046175&amp;p=nbpdlymashwlwlbqnbpdyndtujyn"
+                        alt="logo-samandehi"
+                        width="97"
+                        height="97"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="footer-copyright d-flex justify-content-center align-items-start align-items-lg-center bg-navy-blue"
+        >
+          <div class="fs-8 text-middle-blue mt-3 mt-lg-0">
+            کلیه حقوق مادی و معنوی این وب&zwnj;سایت متعلق به کتاب&zwnj;رسان
+            می&zwnj;باشد
+          </div>
         </div>
       </section>
     </main>
-    <section class="footer container-fluid mt-auto pb-5 pb-md-0 text-dark-white fs-8 fw-300 bg-blue pt-3 px-0">
-        <div class="container-lg">
-            <div class="row g-0 my-5 justify-content-center justify-content-lg-between">
-                <div class="col-8 col-md-5 col-lg-3 col-xl-2"><div class="d-flex flex-row flex-xl-column user-select-none"><img src="https://ketabresan.net/themes/dkr/assets/media/logo.svg" alt="کتاب رسان" width="60">
-    <div class="ms-3 ms-xl-0">
-    <p class="mt-xl-2">شــبکه توزیـع کتاب&zwnj;های شـاخص با ۱۰ تا ۲۵ درصد تخفیف همیشگی ارسال کم&zwnj;هزینه پستی به تمام ایران</p>
-    </div>
-    </div></div>
-    
-                <div class="w-100 my-3 d-block d-lg-none"></div>
-    
-                <div class="footer-center col-12 col-md-6 col-lg-4 col-xl-4">
-    <div class="d-flex d-flex-row flex-wrap justify-content-center">
-    <div class="px-4 mb-4"><a href="https://t.me/ketabresan"> <img title="telegram" src="https://ketabresan.net/images/a84f93f307ccbaf7d36f7db336ccde3c.png" alt="telegram"> </a></div>
-    <div class="px-4 mb-4"><a href="https://www.instagram.com/ketabresan_net2"> <img title="insta" src="https://ketabresan.net/images/7a4d899bc8b569b7a0a08498fad1a47e.png" alt="insta"> </a></div>
-    <div class="px-4 mb-4"><a href="https://eitaa.com/ketabresan"><img title="eita" src="https://ketabresan.net/images/bc401eb87f33b337b4c22797eb38bb67.png" alt="eita"> </a></div>
-    <div class="px-4 mb-4"><a href="https://ble.ir/ketabresan"> <img title="bale" src="https://ketabresan.net/images/eecb2565e2ccde04eb91ab458993f2e2.png" alt="bale"> </a></div>
-    </div>
-    <div class="d-flex d-flex-row flex-wrap justify-content-center mb-4">
-    <div class="px-2"><a class="fs-7 text-green" href="https://ketabresan.net/bulk">سفارش عمده</a></div>
-    <div class="px-2"><a class="fs-7 text-green" href="https://ketabresan.net/guide">راهنمای&zwnj; خرید</a></div>
-    <div class="px-2"><a class="fs-7 text-green" href="https://ketabresan.net/competitions">مسابقه کتاب&zwnj;خوانی</a></div>
-    </div>
-    <div class="d-flex d-flex-row flex-wrap justify-content-center mb-4">
-    <div class="px-2"><a class="fs-7 text-green" href="https://ketabresan.net/%D9%86%D8%B0%D8%B1-%D9%81%D8%B1%D9%87%D9%86%DA%AF%DB%8C">نذر فرهــنگی</a></div>
-    <div class="px-2"><a class="fs-7 text-green" href="https://ketabresan.net/contact">ارتبــاط با&zwnj; مـا</a></div>
-    <div class="px-2"><a class="fs-7 text-green" href="https://ketabresan.net/about-us">درباره کتاب&zwnj;رســـان</a></div>
-    </div>
-    </div>
-    
-                <div class="w-100 my-3 d-block d-lg-none"></div>
-    
-                <div class="col-10 col-md-6 col-lg-4 col-xl-4"><div class="row g-0">
-    <div class="col pe-4">
-    <div class="d-flex flex-column justify-content-between">
-    <div class="d-flex align-items-start mb-3">
-    <div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="24" height="24" viewBox="0 0 24 24" stroke-width="1" stroke="#f7f8ff" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"></path> <circle cx="12" cy="11" r="3"></circle> <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"></path> </svg></div>
-    <div class="flex-grow-1 ms-3"><a class="text-dark-white fs-8" href="https://nshn.ir/0c_b1VUR0JG4B5" target="_blank" rel="noopener">مشهد، بلوار شهید صادقی، شهید صادقی۱۹، مجتمع تابان، طبقه منهای&zwnj;یک، واحد۱۰</a></div>
-    </div>
-    <div class="d-flex align-items-start mb-3">
-    <div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="24" height="24" viewBox="0 0 24 24" stroke-width="1" stroke="#f7f8ff" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"></path> <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4"></path> <circle cx="18" cy="18" r="4"></circle> <path d="M15 3v4"></path> <path d="M7 3v4"></path> <path d="M3 11h16"></path> <path d="M18 16.496v1.504l1 1"></path> </svg></div>
-    <div class="flex-grow-1 ms-3 fs-8">همه روزه به&zwnj;جز ایام تعطیل؛ 8 الی 21</div>
-    </div>
-    <div class="d-flex align-items-start mb-3">
-    <div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="24" height="24" viewBox="0 0 24 24" stroke-width="1" stroke="#f7f8ff" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"></path> <rect x="3" y="5" width="18" height="14" rx="2"></rect> <polyline points="3 7 12 13 21 7"></polyline> </svg></div>
-    <div class="flex-grow-1 ms-3">info@ketabresan.net</div>
-    </div>
-    <div class="d-flex align-items-start">
-    <div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="24" height="24" viewBox="0 0 24 24" stroke-width="1" stroke="#f7f8ff" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"></path> <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"></path> </svg></div>
-    <div class="flex-grow-1 ms-3"><a class="text-dark-white fs-8" href="tel:05137232322">22 23 23 37 051</a></div>
-    </div>
-    </div>
-    </div>
-    <div class="col-auto">
-    <div class="d-flex flex-column h-100"><a class="mb-2 bg-white rounded-2" referrerpolicy="origin" target="_blank" href="https://trustseal.enamad.ir/?id=332048&amp;Code=twM6dYGjZQSJ0B7RZjcO" rel="noopener"> <img src="https://trustseal.enamad.ir/logo.aspx?id=332048&amp;Code=twM6dYGjZQSJ0B7RZjcO" alt="" width="87" height="95"> </a> <a class="bg-white rounded-2" href="https://logo.samandehi.ir/Verify.aspx?id=1046175&amp;p=rfthobpdaodsgvkarfthjyoedshw"> <img id="jxlzesgtwlaofukzjxlzjzpeapfu" class="mb-auto" src="https://logo.samandehi.ir/logo.aspx?id=1046175&amp;p=nbpdlymashwlwlbqnbpdyndtujyn" alt="logo-samandehi" width="97" height="97"> </a></div>
-    </div>
-    </div></div>
-            </div>
-        </div>
-    
-        <div class="footer-copyright d-flex justify-content-center align-items-start align-items-md-center bg-navy-blue"><div class="fs-8 text-middle-blue mt-3 mt-md-0">کلیه حقوق مادی و معنوی این وب&zwnj;سایت متعلق به کتاب&zwnj;رسان می&zwnj;باشد</div></div>
-    </section>
     <script src="./asset/JQuery/jquery.min.js"></script>
     <script src="./asset/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     <script src="./asset/bootstrap5/bootstrap.min.js"></script>
