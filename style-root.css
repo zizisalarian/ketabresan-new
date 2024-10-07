@@ -1,0 +1,42 @@
+
+:root {
+    --middleRed: 255, 135, 138;
+    --darkRed: 242, 2, 9;
+    --light-green: 204, 255, 108;
+    --green: 158, 219, 52;
+    --dark-green: 117, 184, 0;
+    --light-red: 255, 175, 177;
+    --red: 255, 90, 94;
+    --dark-red: 209, 59, 59;
+    --blue-gray-100: 247, 248, 255;
+    --blue-gray-200: 230, 232, 246;
+    --blue-gray-300: 195, 200, 230;
+    --blue-gray-400: 143, 153, 191;
+    --blue-gray-500: 69, 78, 115;
+    --blue-gray-600: 46, 51, 77;
+    --navy-blue: 28, 31, 48;
+    --white: 255, 255, 255;
+    --success: 0, 184, 18;
+    --info: 97, 126, 243;
+    --alarm: 255, 190, 13;
+    --danger: 244, 67, 54;
+    --red-shadow: inset 0px -10px 20px rgba(var(--dark-red), 0.15), 0px 5px 15px rgba(var(--red), 0.15);
+    --green-shadow: inset 0px -10px 20px rgba(var(--dark-green), 0.15), 0px 5px 20px rgba(var(--green), 0.3);
+    --blue-gray-shadow: inset 0px -10px 20px rgba(var(--blue-gray-500), 0.1), 0px 5px 15px rgba(var(--blue-gray-500), 0.12);
+    --blue-gray-drop-shadow: 0px 4px 8px rgba(var(--blue-gray-500), 0.1);
+    --box-shadow: 0px 8px 20px rgba(var(--blue-gray-500), 0.08);
+    --box-shadow-blue: 0px 8px 20px 0px rgba(var(--blue-gray-500), 0.08);
+    --bs-success: rgba(var(--green));
+    --bs-success-rgb: var(--green);
+    --bs-secondary-color: rgb(var(--blue-gray-400));
+    --bs-border-color: rgb(var(--blue-gray-200));
+    --bs-danger: rgba(var(--danger));
+    --bs-danger-rgb: var(--danger);
+    --bs-focus-ring-width: 0.25rem;
+    --bs-focus-ring-opacity: 0.25;
+    --bs-focus-ring-color: rgba(var(--blue-gray-400));
+    --bs-form-valid-color: rgba(var(--green));
+    --bs-form-valid-border-color: rgba(var(--green));
+    --bs-form-invalid-color: rgba(var(--danger));
+    --bs-form-invalid-border-color: rgba(var(--danger));
+}
