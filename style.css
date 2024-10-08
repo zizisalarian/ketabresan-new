@@ -2918,18 +2918,23 @@ img.book-image {
 main {
     overflow-x: hidden;
 }
+
 div::-webkit-scrollbar {
     display: none;
-  }
-  
-  /* Hide scrollbar for IE, Edge and Firefox */
-  div {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-  }
-  .container{
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+div {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.container {
     padding: 0;
-  }
+}
+
 .circle-blur {
     z-index: -1;
     width: 585px;
@@ -3259,14 +3264,86 @@ h6.title {
 
 }
 
+.about {
+    border-radius: 15px;
+    box-shadow: 0 8px 8px #454E7314;
+}
+
+.data_more_less_inner {
+    margin-bottom: 20px
+}
+
+.action_less {
+    display: none;
+    transform: rotate(0);
+    transition: .4s;
+}
+
+.less_active .action_less {
+    display: inline-block;
+    transform: rotate(180deg);
+    transition: .4s;
+}
+
+.less_active .action_more {
+    display: none;
+    transform: rotate(0);
+    transition: .4s;
+}
+
+.data_more_less:not(.less_active):not(.action_disabled) .data_more_less_inner:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=0);
+    height: 80px;
+}
+
+.data_more_less.action_disabled .more_less_action {
+    display: none;
+}
+
+.more_less_action {
+    /* bottom: 20px; */
+}
+
+@media (max-width: 1200px) {
+    .tab-discount .right {
+        padding: 64px 20px !important;
+    }
+
+    .tab-discount .right {
+        padding-right: 42px !important;
+    }
+
+    .tab-discount .count-timer {
+        width: 65px;
+        height: 67px;
+        margin: 2px !important;
+        flex-grow: 1;
+    }
+
+    .tab-discount .img {
+        width: 135px;
+        height:180px
+    }
+    
+}
 
 @media (max-width: 992px) {
     section {
         padding: 0 20px
     }
-    .countdown-banner h4{
+    .countdown-banner h4 {
         font-size: 40px;
     }
+
     .leaf-1 {
         width: 148px;
         top: 30%;
@@ -3280,7 +3357,7 @@ h6.title {
     }
 
     .border-dashed {
-        
+
         gap: 10px;
     }
 
@@ -3290,57 +3367,77 @@ h6.title {
         height: 1px;
         background-color: #fff;
     }
-    .leaf-3{
+
+    .leaf-3 {
         width: 118px;
         right: 30%;
         /* bottom: 0; */
         top: -80px;
     }
-    .discount>div.left{
+
+    .discount>div.left {
         max-width: 100%;
     }
+
     .discount-code-div {
         padding: 10px 0
     }
-    .leaf-4{
+
+    .leaf-4 {
         width: 87px;
         left: -30px;
         top: -45px;
     }
-    .best-selling-slider .owl-nav button{
+
+    .best-selling-slider .owl-nav button {
         display: none
     }
-    .best-selling-slider{
+
+    .best-selling-slider {
         padding: 0 11px
     }
-    .leaf-5{
+
+    .leaf-5 {
         width: 134px;
         right: -70px;
     }
-    .banner{
+
+    .banner {
         width: 100% !important
     }
-    .leaf-6{
-        width:72px;
+
+    .leaf-6 {
+        width: 72px;
         z-index: -1;
         top: -65px
     }
-    section:has(.writer) , section:has(.cards) , section:has(.categories){
+
+    section:has(.writer),
+    section:has(.cards),
+    section:has(.categories) {
         padding-left: 0;
     }
-    .tab-discount>div{
-        width:100% !important;
+
+    .tab-discount>div {
+        width: 100% !important;
         max-width: 100%;
     }
-    .tab-discount .left .mobile{
+
+    .tab-discount .left .mobile {
         top: -17px;
         right: auto;
     }
-    .tab-discount .right .mobile{
+
+    .tab-discount .right .mobile {
         bottom: -17px;
         left: auto;
     }
-    .tab-discount .img{
+
+    .tab-discount .img {
         margin-top: 30px;
+    }
+
+    .more_less_action {
+        margin-bottom: 40px;
     }
 }
